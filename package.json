@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/elvinyung/scalk#readme",
   "dependencies": {
-    "botstrap": "^0.3.0",
     "mathjs": "^1.7.0"
   }
 }
