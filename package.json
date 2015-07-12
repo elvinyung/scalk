@@ -1,0 +1,28 @@
+{
+  "name": "scalk",
+  "version": "1.0.0",
+  "description": "Botstrap simple math expression evaluator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elvinyung/scalk.git"
+  },
+  "keywords": [
+    "slack",
+    "botstrap",
+    "calculator"
+  ],
+  "author": "Elvin Yung <sup@elvinyung.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elvinyung/scalk/issues"
+  },
+  "homepage": "https://github.com/elvinyung/scalk#readme",
+  "dependencies": {
+    "botstrap": "^0.3.0",
+    "mathjs": "^1.7.0"
+  }
+}
