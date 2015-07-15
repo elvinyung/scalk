@@ -10,6 +10,6 @@ npm install scalk
 ```
 
 Example usage:
-```
+```javascript
 bot.command('calc', require('scalk'));
 ```
