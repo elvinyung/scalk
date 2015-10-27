@@ -1,6 +1,6 @@
 {
   "name": "scalk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Botstrap simple math expression evaluator",
   "main": "index.js",
   "scripts": {
