@@ -1,0 +1,6 @@
+{
+  "name": "scalk",
+  "command": "scalk",
+  "description": "Arbitrary calculations",
+  "usage": "scalk [expression]"
+}
