@@ -4,18 +4,25 @@ var math = require('mathjs');
 
 var ERROR_RESPONSE = ':1234: :question: :question:';
 
+var scope = {};
+
 var main = function main(argv, response, logger) {
   var respBody = ERROR_RESPONSE;
 
   try {
     var expression = argv.slice(1).join('');
-    var result = math.eval(expression);
+    logger.log('Got scalk expression', expression);
+
+    var result = math
+      .parse(expression)
+      .compile(math)
+      .eval(scope);
 
     if (typeof result === 'function') {
       logger.error('Somehow got a function in a scalk eval');
     }
     else {
-      respBody = math.eval(expression).toString();
+      respBody = result.toString();
     }
   } catch(e) {
     logger.error(e);
